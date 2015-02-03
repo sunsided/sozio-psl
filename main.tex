@@ -14,6 +14,8 @@
 		   labelfont=bf]
 		   {caption}
 
+\usepackage{cleveref}
+
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
 
@@ -69,14 +71,15 @@
 \begin{wrapfigure}{r}{0.5\textwidth}
   \vspace{-20pt}
   \begin{center}
-    \includegraphics[width=0.48\textwidth]{camera_obscura-17-jh.jpg}
+    \includegraphics[width=0.48\textwidth]{gemma-frisius_camera_obscura-1544}
   \end{center}
   \vspace{-20pt}
-  \captionsource{Camera Obscura, 17. Jh., außerdem ein richtig langer Text}{\cite{CamObs:2015:Online}}
+  \captionsource{Camera Obscura; Reiner Gemma-Frisius, 1544}{\cite{KleiGeFo:Book}}
+  \label{fig:camob1544}
   \vspace{-10pt}
 \end{wrapfigure}
 
-Sowas \cite{KleiGeFo:Book} nämlich.
+Reiner \textsc{Gemma-Frisius}, niederländischer Physiker, Beobachtung Sonnenfinsternis 1544 mittels Camera Obscura nach \textsc{Aristoteles}'schem Prinzip, die er in einer Zeichnung festhält (\cref{fig:camob1544}.)
 
 \lipsum
 
