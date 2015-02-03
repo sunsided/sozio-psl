@@ -14,6 +14,11 @@
 		   labelfont=bf]
 		   {caption}
 
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+
+\bibliography{quellen.bib}
+
 \geometry{a4paper,
 		top=25mm, 
 		left=40mm, 
@@ -67,9 +72,11 @@
     \includegraphics[width=0.48\textwidth]{camera_obscura-17-jh.jpg}
   \end{center}
   \vspace{-20pt}
-  \captionsource{Camera Obscura, 17. Jh., außerdem ein richtig langer Text}{Wikipedia}
+  \captionsource{Camera Obscura, 17. Jh., außerdem ein richtig langer Text}{\cite{CamObs:2015:Online}}
   \vspace{-10pt}
 \end{wrapfigure}
+
+Sowas \cite{KleiGeFo:Book} nämlich.
 
 \lipsum
 
@@ -155,5 +162,7 @@ Katzen
 
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 \listoffigures
+
+\printbibliography
 
 \end{document}

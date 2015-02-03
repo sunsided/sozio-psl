@@ -21,6 +21,9 @@
 *.mtc1
 *.out
 *.synctex.gz
-*.log
 *.bak
 *.pdf
+*.bcf
+*.run.xml
+*.url
+*-blx.bib
