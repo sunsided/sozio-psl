@@ -15,6 +15,7 @@
 		   {caption}
 
 \usepackage{cleveref}
+\usepackage{siunitx}
 
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
@@ -46,6 +47,8 @@
     \textbf{Quelle:} #2%
   }%
 }
+
+\newcommand{\name}[1]{\textsc{#1}}
 
 \begin{titlepage}
 	\title{\textbf{Camera Obscura} \\ Eine kurze Geschichte der Fotografie}
@@ -79,33 +82,82 @@
   \vspace{-10pt}
 \end{wrapfigure}
 
-Reiner \textsc{Gemma-Frisius}, niederländischer Physiker, Beobachtung Sonnenfinsternis 1544 mittels Camera Obscura nach \textsc{Aristoteles}'schem Prinzip, die er in einer Zeichnung festhält (\cref{fig:camob1544}.)
+Beschrieben von \name{Aristoteles} (384-322 v. Chr.) in der \textit{Problemata physica}.
 
-\lipsum
+\name{Da Vinci} (1452-1519).
+
+Reiner \name{Gemma-Frisius}, niederländischer Physiker, Beobachtung Sonnenfinsternis 1544 mittels Camera Obscura nach \name{Aristoteles}'schem Prinzip, die er in einer Zeichnung festhält (\cref{fig:camob1544}.)
 
 
 
 \subsection{Heliographie}
 
-Niépce
+Joseph Nicéphore \name{Niépce}
 
-\lipsum
+Erstes permanentes Foto 1826 \textit{Geburtsstunde der Fotografie}
+
+Direktpositiv
+
+Belichtung auf $\SI{21}{\centi\meter} \times \SI{16}{\centi\meter}$ große Zinnplatte mit Asphaltbeschichtung, Härtung unter Sonnenlicht. Lavendelöl und Petrolium zum Lösen des ungehärteten Asphalts.
 
 \subsection{Daguerreotypie}
 
-Daguerre
+Louis Daguerre
 
-\lipsum
+Silberhalogenidplatten
+
+Erste kommerzielle Fotografie
+
+Serienproduktion
+
+Verkürzung der Belichtungszeit durch Verbesserung des Objektivaufbaus
+
+Josef \name{Petzval}, ca 1840
+
+\subsection{Kollodium-Nassplattenverfahren}
+
+F. S. \name{Archer} \& Gustave \name{Le Gray}
+
+Polierte Glasplatte + Kollodium + Silbernitrat
+
+Nasse Platte wird sofort belichtet und anschließend sofort verarbeitet.
 
 \subsection{Carte de Visite}
 
-\lipsum
+André A.E. \name{Disdéri} (1819-1889)
+
+Mehrlinsige Kamera erzeugt Serie von acht Bildern auf Kollodium-Nassplatte
+
+\subsection{Nadar}
+
+Gaspard-Félix \name{Tournachon} (Künstlername \name{Nadar})
+
+Fotograf, Karikaturist, Journalist, Schreiber und Ballonfahrer
+
+Erste Luftaufnahmen
+
+Erste Verwendung von künstlichem Licht
+
+Fotostudio in Paris
+
+Musette (Marie-Christine Roux), \name{Nadar} 1855
+La Source, \name{Ingres} 1856
 
 \subsection{Bewegungsstudien}
 
-Muybridges
+Eadweard \name{Muybridge} (1830-1904)
 
-\lipsum
+Landschaftsfotografien
+
+Bewegungsstudien ca. 1870
+
+Animal Locomotion ca. 1887 
+
+\begin{quote} an electro-photographic
+investigation of consecutive
+phases of animal movements
+\end{quote}
+
 
 \subsection{Das bewegte Bild}
 
