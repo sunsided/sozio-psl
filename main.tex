@@ -32,6 +32,14 @@
 \renewcommand{\figurename}{\small{\textbf{Abb.}}}%
 }
 
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Quelle:} #2%
+  }%
+}
+
 \begin{titlepage}
 	\title{\textbf{Camera Obscura} \\ Eine kurze Geschichte der Fotografie}
 	\author{Markus Mayer}
@@ -59,7 +67,7 @@
     \includegraphics[width=0.48\textwidth]{camera_obscura-17-jh.jpg}
   \end{center}
   \vspace{-20pt}
-  \caption{Camera Obscura, 17. Jh.}
+  \captionsource{Camera Obscura, 17. Jh., außerdem ein richtig langer Text}{Wikipedia}
   \vspace{-10pt}
 \end{wrapfigure}
 
