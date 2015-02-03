@@ -2,7 +2,13 @@
 
 \usepackage{geometry}
 \usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{wrapfig}
 %\usepackage[pdftex]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
 
 \geometry{a4paper,
 		top=25mm, 
@@ -11,11 +17,7 @@
 		bottom=30mm, 
 		headsep=10mm, 
 		footskip=12mm}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage[ngerman]{babel}
+\graphicspath{ {./images/} }
 
 \pagestyle{plain}
 \pagenumbering{arabic}
@@ -40,6 +42,12 @@
 \section{Die Erfindung der Fotografie}
 
 \subsection{Die Camera Obscura}
+
+\begin{wrapfigure}{l}{0.2\textwidth}
+\vspace{-12pt}
+\includegraphics[width=0.2\textwidth]{camera_obscura-17-jh.jpg}
+\vspace{-20pt}
+\end{wrapfigure}
 
 \lipsum
 
