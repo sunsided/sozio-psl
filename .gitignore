@@ -27,3 +27,4 @@
 *.run.xml
 *.url
 *-blx.bib
+*.synctex.gz(busy)
