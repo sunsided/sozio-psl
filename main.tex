@@ -19,6 +19,7 @@
 \usepackage{cleveref}
 \usepackage{siunitx}
 \usepackage{todonotes}
+\usepackage{subcaption}
 
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
@@ -120,11 +121,33 @@ Nicht viel später, im Jahre 1685, \todo{quelle} konstruierte der \todo{was?} \n
 \subsection{Ursprung der Landschaftsfotografie}
 \label{sec:ursprung_landschaft}
 
-In der frühen mittelalterlichen Kunst Europas finden sich Darstellungen der Natur allein in Form von Bildnissen des Kloster- oder Hofgartens, als Nutz- oder Ziergarten. \todo{Quelle} Eine Abbildung der Landschaft außerhalb der Mauern des Klosters oder der Burg schien außer Frage. Obschon die Landschaft in der Malerei der Renaissance bildwichtiger Bestandteil zu werden beginnt, lässt sich noch in \name{Claude Lorrain}s \textit{Die Verstoßung der Hagar} (1668) der Konflikt zwischen der Sicherheit des Innen -- so erdrückend es dort auch erscheint -- und der Ungewissheit des Außen erkennen. 
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \vspace{-20pt}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{Claude_Lorrain_-_Die_Verstossung_der_Hagar_(1668)}
+  \end{center}
+  \vspace{-20pt}
+  \captionsource{Die Verstoßung der Hagar, Claude Lorrain, 1668}{\cite{VerstossungHagar:2015:Online}}
+  \label{fig:verstossung1668}
+  \vspace{-20pt}
+\end{wrapfigure}
 
-Mit dem goldenen Zeitalter der Niederlande (ca. 1600-1700) beginnt ein exponentieller Zuwachs an Malereien, welche sich von biblischen Themen und den Motiven der Schäferdichtung abwenden, um die Landschaft selbst in den Vordergrund zu rücken. \todo{Quelle} Es ist letztlich die Zeit der Romantik (ca. 1800-1850), in der sich Maler wie \name{Caspar David Friedrich} finden, die mit Werken wie \textit{Der Wanderer über dem Nebelmeer} (1818) die Schroffheit der Natur zum Kunstmotiv, zum Sehenswerten erheben (\cite{LandscapePainting:2015:Online}. \todo{Bessere Quelle finden}
+In der frühen mittelalterlichen Kunst Europas finden sich Darstellungen der Natur allein in Form von Bildnissen des Kloster- oder Hofgartens, als Nutz- oder Ziergarten. \todo{Quelle} Eine Abbildung der Landschaft außerhalb der Mauern des Klosters oder der Burg schien außer Frage. Obschon die Landschaft in der Malerei der Renaissance bildwichtiger Bestandteil zu werden beginnt, lässt sich noch in \name{Claude Lorrain}s \textit{Die Verstoßung der Hagar} (1668, \cref{fig:verstossung1668}) der Konflikt zwischen der Sicherheit des Innen -- so erdrückend es dort auch erscheint -- und der Ungewissheit des Außen erkennen. 
 
-Diese Bewegung ist es, welche die Vorlage für die imposanten Naturfoto- und -filmografien der Neuzeit bildet, wie man sie etwa im Genre des Bergfilmes (z.B. \name{Leni Riefenstahl}s Szenerien von \textit{Die weiße Hölle vom Piz Palü}) findet. 
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \vspace{-20pt}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{Caspar_David_Friedrich_-_Der_Wanderer_ueber_dem_Nebelmeer}
+  \end{center}
+  \vspace{-20pt}
+  \captionsource{Der Wanderer über dem Nebelmeer, Caspar David Friedrich, 1818}{\cite{WandererNebelmeer:2015:Online}}
+  \label{fig:wanderer1818}
+  \vspace{-5pt}
+\end{wrapfigure}
+
+Mit dem goldenen Zeitalter der Niederlande (ca. 1600-1700) beginnt ein exponentieller Zuwachs an Malereien, welche sich von biblischen Themen und den Motiven der Schäferdichtung abwenden, um die Landschaft selbst in den Vordergrund zu rücken. \todo{Quelle} Es ist letztlich die Zeit der Romantik (ca. 1800-1850), in der sich Maler wie \name{Caspar David Friedrich} finden, die mit Werken wie \textit{Der Wanderer über dem Nebelmeer} (1818, \cref{fig:wanderer1818}) die Schroffheit der Natur zum Kunstmotiv, zum Sehenswerten erheben (\cite{LandscapePainting:2015:Online}). \todo{Bessere Quelle finden}
+
+Diese Bewegung ist es, welche die Vorlage für die imposanten Naturfoto- und -filmografien der Neuzeit bildet, wie man sie im Genre des Bergfilmes, etwa in \name{Arnold Fanck}s Szenerien von \textit{Der heilige Berg} und \textit{Die weiße Hölle vom Piz Palü}) findet (vgl.~\cref{fig:heiligerBerg1926,fig:pizPalue1929}). 
 Dieses neu gefundene Interesse für die Landschaft (und insbesondere die notwendige Schaffung der Infrastruktur für den Bergfilm der 1920er Jahre) bedeuteten nicht zuletzt auch die wesentlichen Grundvoraussetzungen für die Entwicklung des Tourismus, der heute mit der Fotografie untrennbar verbunden scheint.
 
 \subsection{Ursprung der Portraitfotografie}
@@ -337,6 +360,25 @@ Das (Selbst-)Portrait schon immer ein integraler Bestandteil der Kunst.
 Katzen
 
 \lipsum
+
+\section{Zusätzliche Abbildungen}
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.5\textwidth}
+	    \includegraphics[width=\textwidth]{der_heilige_berg}	
+	    \caption{Der Heilige Berg (1926)}
+	    \label{fig:heiligerBerg1926}
+	\end{subfigure}%
+	~
+	\begin{subfigure}[b]{0.5\textwidth}
+	    \includegraphics[width=\textwidth]{piz_palue_ausschnitt}	
+	    \caption{Die weiße Hölle vom Piz Palü (1929)}
+	    \label{fig:pizPalue1929}
+	\end{subfigure}%
+
+	\captionsource{Ausschnitte aus \textit{Der heilige Berg} und \textit{Die weiße Hölle vom Piz Palü}, Arnold Fanck}{\cite{MountainAndFog:2007:Online}}
+\end{figure}
 
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 \listoffigures
